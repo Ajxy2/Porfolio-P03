@@ -206,6 +206,16 @@ body {
 			width:40rem;
 		}
 
+    .image img2{
+      display: block;
+			width: 10%;
+    }
+
+    .image-work{
+			width:20rem;
+      height:30rem;
+		}
+
 
 
 
@@ -295,7 +305,18 @@ body {
 
 
 /* Table */
+.element{
+  margin: 1em 0;
+  padding: 0.5em 0;
+  border-top: 5px solid #333;
+}
 
+.overlay {
+  position: absolute;
+  margin-top: -14rem;
+  margin-left: 35rem;
+  color: white;
+}
 
 /* Button */
 
