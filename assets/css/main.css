@@ -122,6 +122,7 @@ body {
 
 	header {
 		margin: 0 0 2em 0;
+
 	}
 
 		header > p {
@@ -334,7 +335,7 @@ width:180rem;
 
 
 	ul {
-		list-style: disc;
+		list-style-type: none;
 		padding-left: 1em;
 	}
 
@@ -444,7 +445,7 @@ width:180rem;
 		color: #fff !important;
 		text-decoration: none;
 		padding: 0.75em 2.5em 0.75em 2.5em;
-		background-color: #8ebebc;
+		background-color: #EE6C4D;
 		border: 0;
 		cursor: pointer;
 
@@ -504,7 +505,7 @@ width:180rem;
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background: #222629 url("images/overlay.png");
+		background: #222629 ;
 		box-shadow: inset -0.25em 0 0.25em 0 rgba(0, 0, 0, 0.1);
 		color: #fff;
 		height: 100%;
