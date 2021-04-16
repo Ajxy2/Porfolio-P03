@@ -1,186 +1,114 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <!--
 
 -->
-<html>
-	<head>
-		<title>Prologue by HTML5 UP</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-	</head>
-	<body class="is-preload">
-
-		<!-- Header -->
-			<div id="header">
-
-				<div class="top">
-
-					<!-- Logo -->
-						<div id="logo">
-							<span class="image avatar48"><img src="images/avatar.jpg" alt="" /></span>
-						 <a href="index.html" >Adrian Soliman</a>
-							<p>Video Game Designer</p>
-						</div>
-
-					<!-- Nav -->
-						<nav id="nav">
-							<ul>
-								<li><a href="index.html#work" id="top-link"><span class="icon solid fa-home">Work</span></a></li>
-								<li><a href="#portfolio" id="portfolio-link"><span class="icon solid fa-th">About</span></a></li>
-								<li><a href="#about" id="about-link"><span class="icon solid fa-user">Contact</span></a></li>
-
-							</ul>
-						</nav>
-
+<html lang="en">
+<head>
+	<title>SinkorSwim</title>
+	<meta charset="utf-8">
+	<meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
+	<link href="assets/css/main.css" rel="stylesheet">
+</head>
+<body class="is-preload">
+	<!-- Header -->
+	<div id="header">
+		<div class="top">
+			<!-- Logo -->
+			<div id="logo">
+				<span class="image avatar48"><img alt="" src="images/avatar.jpg"></span> <a href="index.html">Adrian Soliman</a>
+				<p>Video Game Designer</p>
+			</div><!-- Nav -->
+			<nav id="nav">
+				<ul>
+					<li><a href="index.html#work" ><span class="icon solid fa-home">Work</span></a></li>
+					<li><a href="#portfolio" ><span class="icon solid fa-th">About</span></a></li>
+					<li><a href="#about" ><span class="icon solid fa-user">Contact</span></a></li>
+				</ul>
+			</nav>
+		</div>
+	</div><!-- Main -->
+	<div class="nav-mobile">
+		<ul>
+			<li><a href="index.html#work"><span class="icon solid fa-home">Work</span></a></li>
+			<li><a href="index.html#about"><span class="icon solid fa-th">About</span></a></li>
+			<li><a href="#about"><span class="icon solid fa-user">Contact</span></a></li>
+		</ul>
+	</div>
+	<div id="main">
+		<!-- Intro -->
+		<section class="one dark cover" id="top">
+			<div class="container">
+				<div class="container-work">
+					<header>
+						<h2 class="alt">Sink or Swim</h2><img alt="Project1" class="titlephoto" src="assets/images/Project1.png">
+						<p>Sink of Swim was created using Java is a hunting simulation game where you play as a submarine trying to kill the sharks trying to attack smaller fish. Its a simulated aquatic environment as the smaller fish try to eat the worms while running away from the sharks. The sharks swim around trying to survive by eating the fish, if they aren’t able to eat them they will eventually die.</p>
+					</header>
 				</div>
-
-
-
 			</div>
-
-		<!-- Main -->
-			<div id="main">
-
-				<!-- Intro -->
-					<section id="top" class="one dark cover">
-						<div class="container">
-									<div class="container-work">
-							<header>
-								<h2 class="alt">Sink or Swim</h2>
-									<img src="assets/images/Project1.png" alt="Project1">
-								<p>Sink of Swim was created using Java is a hunting simulation game where you play as a submarine trying to kill the sharks
-									trying to attack smaller fish. Its a simulated aquatic environment as the smaller fish try to eat the worms
-									while running away from the sharks. The sharks swim around trying to survive by eating the fish,
-									if they aren’t able to eat them they will eventually die.</p>
-							</header>
-
-
+		</section><!-- Portfolio -->
+		<section class="two" id="portfolio">
+			<div class="container">
+				<header>
+					<h3>Objective of game: Control the oceans ecosystem by hunting and killing the sharks before they devour all the fish</h3>
+				</header>
+				<div class="row">
+					<div class="work-col">
+						<img alt="Project1" class="projectimage" src="assets/images/sinkorswim5.png">
+						<div class="first-step">
+							<h2>First step</h2>
+							<p>At first I started the creation of the ocean, fish and worms. Using Arraylists I spawned several fish and worms in the environment. I wanted the creatures to move naturally and have a simulated environment where creatures lived in the ocean.</p>
 						</div>
+					</div><br>
+					<div class="work-col">
+					<div class="first-step">
+						<h2>Incorporating Sharks</h2>
+						<p>From there I incorporated sharks into the game, having the fish run away whenever they sense a shark nearby. The shark class inherits the qualities of the fish but have a chase method to hunt down the smaller fish to eat them.</p>
+					</div><img alt="Project1" class="projectimage" src="assets/images/sinkorswim2.png"></div>
+					<div class="work-col">
+						<img alt="Project1" class="projectimage" src="assets/images/Project1.png">
+						<div class="first-step">
+							<h2>Introducing Player Hunter</h2>
+							<p>Finally I added the player controlled object of the submarine. I wanted the user to have the power to control the ecosystem of the ocean. If the player didn't shoot at the sharks, the sharks will eventually eat all of the</p>
 						</div>
-					</section>
-
-				<!-- Portfolio -->
-					<section id="portfolio" class="two">
-						<div class="container">
-
-							<header>
-								<h3>Objective of game: Control the oceans ecosystem by hunting and killing the sharks before they devour all the fish</h3>
-							</header>
-
-							<div class="row">
-						<div class="work-col">
-
-											<img class="projectimage" src="assets/images/sinkorswim5.png" alt="Project1">
-
-											<div class ="first-step">
-										<h2>First step</h2>
-										<p>	At first I started the creation of the ocean, fish and worms.
-											Using Arraylists I spawned several fish and worms in the environment.
-								       I wanted the creatures to move
-											naturally and have a simulated environment where creatures lived in
-											the ocean.</p>
-										</div>
-
-
-								</div>
-								<br>
-								<div class="work-col">
-
-
-
-													<div class ="first-step">
-												<h2>Incorporating Sharks</h2>
-												<p>	From there I incorporated sharks into the game, having the fish run away whenever they sense a shark nearby. The shark class inherits the qualities of the fish but have a chase method to hunt down the smaller fish to eat them.
-</p>
-												</div>
-
-												<img class="projectimage" src="assets/images/sinkorswim2.png" alt="Project1">
-
-
-										</div>
-
-
-										<div class="work-col">
-
-															<img class="projectimage" src="assets/images/Project1.png" alt="Project1">
-
-															<div class ="first-step">
-														<h2>Introducing Player Hunter</h2>
-														<p>	Finally I added the player controlled object of the submarine. I wanted
-														the user to have the power to control the ecosystem of the ocean. If the player
-													didn't shoot at the sharks, the sharks will eventually eat all of the</p>
-														</div>
-
-
-												</div>
-
-
-
-							</div>
-						</div>
-
-					</section>
-
-				<!-- About Me -->
-					<section id="about" class="three">
-						<div class="container">
-
-							<header>
-								<h2>Objectives</h2>
-							</header>
-
-
-
-							<ul>
-								<li>- Have comptuer controlled ecosystem </li>
-								<li>- Have users the ability to alter the environment </li>
-								<li>- Collision detection between objects</li>
-
-							</ul>
-
-						</div>
-					</section>
-
-					<!-- Contact -->
-						<section id="contact" class="four">
-							<div class="container">
-
-								<header>
-									<h2>Contact</h2>
-								</header>
-
-								<h3> If you want to collaborate with me, feel free to contact me. </h3>
-
-							<h3>I'm interested in any position part/full time</h3>
-
-								<ul>
-									<li><a class="button-nav" href="#text_styling">Adriansoliman21@gmail.com</a></li>
-						<li>	<a class="button-nav" href="#text_styling">Facebook</a></li>
-							<li>	<a class="button-nav" href="#text_styling">Instagram</a></li>
-	</ul>
-
-
-							</div>
-						</section>
-
-				</div>
-
-				<!-- Footer -->
-					<div id="footer">
-
-						<!-- Copyright -->
-							<ul class="copyright">
-								<li>&copy;Adrian Soliman</li>
-
-							</ul>
-							<div class="footer-link">
-		 <a  href="styleguide.html">Styleguide</a>
-		 <a  href="https://www.facebook.com/adrian.soliman.1238/">Facebook</a>
-		  <a  href="https://www.instagram.com/adriansoliman/?hl=en">Instagram</a>
 					</div>
-		<!-- Scripts -->
-
-
-	</body>
+				</div>
+			</div>
+		</section><!-- About Me -->
+		<section class="three" id="about">
+			<div class="container">
+				<header>
+					<h2>Objectives</h2>
+				</header>
+				<ul>
+					<li>- Have comptuer controlled ecosystem</li>
+					<li>- Have users the ability to alter the environment</li>
+					<li>- Collision detection between objects</li>
+				</ul>
+			</div>
+		</section><!-- Contact -->
+		<section class="four" id="contact">
+			<div class="container">
+				<header>
+					<h2>Contact</h2>
+				</header>
+				<h3>If you want to collaborate with me, feel free to contact me.</h3>
+				<h3>I'm interested in any position part/full time</h3>
+				<ul>
+					<li><a class="button-nav" href="mailto:Adriansoliman21@gmail.com">Adriansoliman21@gmail.com</a></li>
+					<li><a class="button-nav" href="https://www.facebook.com/adrian.soliman.1238/">Facebook</a></li>
+					<li><a class="button-nav" href="https://www.instagram.com/adriansoliman/?hl=en">Instagram</a></li>
+				</ul>
+			</div>
+		</section>
+	</div><!-- Footer -->
+	<div id="footer">
+		<!-- Copyright -->
+		<ul class="copyright">
+			<li>&copy;Adrian Soliman</li>
+		</ul>
+		<div class="footer-link">
+			<a href="styleguide.html">Styleguide</a> <a href="https://www.facebook.com/adrian.soliman.1238/">Facebook</a> <a href="https://www.instagram.com/adriansoliman/?hl=en">Instagram</a>
+		</div>
+	</div>
+</body>
 </html>

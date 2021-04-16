@@ -1,276 +1,182 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <!--
    -->
-<html>
-   <head>
-      <title>Prologue by HTML5 UP</title>
-      <meta charset="utf-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-      <link rel="stylesheet" href="assets/css/main.css" />
-   </head>
-   <body class="is-preload">
-      <!-- Header -->
-      <div id="header">
-         <div class="top">
-            <!-- Logo -->
-            <div id="logo">
-               <span class="image avatar48"><img src="images/avatar.jpg" alt="" /></span>
-
-
-               <a href="index.html" >Adrian Soliman</a>
-
-               <p>UI/UX Designer</p>
-            </div>
-            <!-- Nav -->
-            <nav id="nav">
-               <ul>
-                 <li><a href="index.html" ><span class="icon solid fa-home">Portfolio</span></a></li>
-                  <li><a href="#interactive_elements"><span class="icon solid fa-home">Interactive Elements</span></a></li>
-                  <li><a href="#text_elements"><span class="icon solid fa-th">Text Elements</span></a></li>
-                  <li><a href="#combined_elements" ><span class="icon solid fa-user">Combined Elements</span></a></li>
-               </ul>
-            </nav>
-         </div>
-      </div>
-      <!-- Main -->
-      <div id="main">
-         <!-- Intro -->
-         <section id="top" class="one dark cover">
-            <div class="container">
-               <header>
-                  <h2 class="alt">Styleguide</h2>
-               </header>
-               <footer>
-                  <a href="#portfolio" class="button scrolly">Magna Aliquam</a>
-               </footer>
-            </div>
-         </section>
-         <!-- Portfolio -->
-         <section id="interactive_elements" class="two">
-
-            <div class="container">
-               <header>
-                  <h2>Interactive Elements</h2>
-               </header>
-               <p> insert In-text link, navigation link, submit & reset buttons, Text input field
-               <p>
-               <p>Lorem ipsum dolor sit a</p>
-  <section class="element">
-							 <h3> NAVIGATION LINK </h3>
-							 <h4> CSS selector: </h4>
-							 <p> .button-nav </p>
-
-							 <h4> Sample code: </h4>
-							 <code>
-							 	&lt;a class="button-nav" href="#home"&gt; Home&lt;/a&gt;
-							 </code>
-<h4> Rendered element: </h4>
-							 <a href="#portfolio" class="button scrolly">Magna Aliquam</a>
-
-  </section>
-	  <section class="element">
-
-	<h3> IN-TEXT LINK</h3>
-
-	<h4> CSS selector: </h4>
-	<p> .link </p>
-
-	<!-- For all my sample codes, I used the P01 Style Guide example used as reference (mainly for implementing "&lt;" and "&gt;") -->
-	<h4> Sample code: </h4>
-	<code>
-		&lt;p&gt; Click &lt;a class="link" href="https://www.sfu.ca/"&gt; here &lt;/a&gt; to find out more!/ &lt;p&gt;
-	</code>
-
-	<h4> Rendered element: </h4>
-	<p> Click <a class="link" href="https://www.sfu.ca/"> here </a> to find out more!</p>
-</section>
-
-<section class="element">
-	<!-- label reference from https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_label -->
-	<h3> SUBMIT & RESET BUTTONS </h3>
-	<h4> CSS selector: </h4>
-	<p>.button-form</p>
-
-	<h4> Sample code: </h4>
-	<code>
-		&lt;input class="button-form" type="submit" value="Submit"&gt; <br>
-		&lt;input class="button-form" type="reset" value="Reset"&gt; <br>
-	</code>
-
-	<h4> Rendered element </h4>
-	<input class="button-form" type="submit" value="Submit">
-	<input class="button-form" type="reset" value="Reset">
-</section>
-
-<section class="element">
-	<h3> TEXT INPUT FIELD </h3>
-	<!-- Input box reference from https://www.w3schools.com/tags/tag_input.asp -->
-
-	<h4> CSS selector: </h4>
-	<p> .input-text </p>
-	<p> .input-textlabel </p>
-
-	<h4> Sample code: </h4>
-	<code>
-		&lt;label class="input-textlabel" for="name"&gt; Name: &lt;/label&gt; <br>
-		&lt;input class="input-text" type="text" id = "name" name="name"&gt; <br>
-	</code>
-
-	<h4> Rendered element: </h4>
-	<form method="post" action="#">
-		  <div class="col-6 col-12-mobile"><input type="text" name="name" placeholder="Name" /></div>
-	</form>
-</section>
-
-
-<section id="text_elements" class="element">
-  <header>
-     <h2>Text Elements</h2>
-  </header>
-
-
-    <h3> FOUR LEVELS OF HEADING </h3>
-    <h4> CSS Selector: </h4>
-    <p> h1, h2, h3, h4 </p>
-
-    <h4> Sample code: </h4>
-    <code>
-      &lt;h1&gt; level 1 &lt;/h1&gt; <br>
-      &lt;h2&gt; level 2 &lt;/h2&gt; <br>
-      &lt;h3&gt; level 3 &lt;/h3&gt; <br>
-      &lt;h4&gt; level 4 &lt;/h4&gt; <br>
-    </code>
-
-    <h4> Rendered element: </h4>
-    <h1> level 1 </h1>
-    <h2> level 2 </h2>
-    <h3> level 3 </h3>
-    <h4> level 4 </h4>
-  </section>
-
-  <section class="element">
-    <h3> A PARAGRAPH </h3>
-    <h4> CSS selector: </h4>
-    <p> p </p>
-
-    <h4> Sample code: </h4>
-    <code>
-      &lt;p&gt; Lorem ipsum... &lt;/p&gt;
-    </code>
-
-    <h4> Rendered element: </h4>
-    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-      aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-    </p>
-
-  </section>
-
-
-
-
-  <section class="element">
-
-</section>
-				 <section id="combined_elements" class="two">
-						<div class="container">
-         <header>
-            <h2>Combined Elements</h2>
-         </header>
-
-
-         <h3>Numbered Lists</h3>
-
-				   <h4> Renedered element: </h4>
-				 <li> item 1 </li>
-				 <li> item 2 </li>
-				 <li> item 3 </li>
-
-
-         <header>
-            <h2>Website Components</h2>
-         </header>
-         <h3> Fonts </h3>
-         <p> INSERT FONT </p>
-         <h3> Color Palettes </h3>
-      </div>
-      </section>
-      <!-- About Me -->
-      <section id="about" class="four">
-         <div class="container">
-
-            <section id="top" class="one dark cover">
-  						<div class="container">
-
-  							<header>
-
-                     <h2>Work Template</h2>
-
-  									<img src="assets/images/Project1.png" alt="Project1">
-  								<p>Sink of Swim was created using Java is a hunting simulation game where you play as a submarine trying to kill the sharks
-  									trying to attack smaller fish. Its a simulated aquatic environment as the smaller fish try to eat the worms
-  									while running away from the sharks. The sharks swim around trying to survive by eating the fish,
-  									if they aren’t able to eat them they will eventually die.</p>
-  							</header>
-
-
-
-  						</div>
-  					</section>
-
-  				<!-- Portfolio -->
-  					<section id="portfolio" class="two">
-  						<div class="container">
-
-  							<header>
-  								<h3>Objective of game: Control the oceans ecosystem by hunting and killing the sharks before they devour all the fish</h3>
-  							</header>
-
-  							<div class="row">
-  						<div class="work-col">
-
-  											<img class="projectimage" src="assets/images/sinkorswim5.png" alt="Project1">
-
-  											<div class ="first-step">
-  										<h2>First step</h2>
-  										<p>	At first I started the creation of the ocean, fish and worms.
-  											Using Arraylists I spawned several fish and worms in the environment.
-  								       I wanted the creatures to move
-  											naturally and have a simulated environment where creatures lived in
-  											the ocean.</p>
-  										</div>
-
-
-  								</div>
-  								<br>
-
-
-
-  							</div>
-  						</div>
-
-  					</section>
-         </div>
-      </section>
-
-      </div>
-    </div>
-
-    <!-- Footer -->
-      <div id="footer">
-
-        <!-- Copyright -->
-          <ul class="copyright">
-            <li>&copy;Adrian Soliman</li>
-
-          </ul>
-          <div class="footer-link">
- <a  href="styleguide.html">Styleguide</a>
- <a  href="https://www.facebook.com/adrian.soliman.1238/">Facebook</a>
-  <a  href="https://www.instagram.com/adriansoliman/?hl=en">Instagram</a>
-      </div>
-
-
-
-
-  	</body>
-  </html>
+<html lang="en">
+<head>
+	<title>P01 - Style Guide</title>
+	<meta charset="utf-8">
+	<meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
+	<link href="assets/css/main.css" rel="stylesheet">
+</head>
+<body class="is-preload">
+	<!-- Header -->
+	<div id="header">
+		<div class="top">
+			<!-- Logo -->
+			<div id="logo">
+				<span class="image avatar48"><img alt="" src="images/avatar.jpg"></span> <a href="index.html">Adrian Soliman</a>
+				<p>Video Game Designer</p>
+			</div><!-- Nav -->
+			<nav id="nav">
+				<ul>
+					<li><a href="index.html"><span class="icon solid fa-home">Portfolio</span></a></li>
+					<li><a href="#interactive_elements"><span class="icon solid fa-home">Interactive Elements</span></a></li>
+					<li><a href="#text_elements"><span class="icon solid fa-th">Text Elements</span></a></li>
+					<li><a href="#combined_elements"><span class="icon solid fa-user">Combined Elements</span></a></li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+	<div class="nav-mobile">
+		<ul>
+			<li><a href="index.html#work" id="top-link"><span class="icon solid fa-home">Work</span></a></li>
+			<li><a href="#work" id="portfolio-link"><span class="icon solid fa-th">About</span></a></li>
+			<li><a href="#about" id="about-link"><span class="icon solid fa-user">Contact</span></a></li>
+		</ul>
+	</div><!-- Main -->
+	<div id="main">
+		<!-- Intro -->
+		<section class="one dark cover" id="top">
+			<div class="container">
+				<header>
+					<h2 class="alt">Styleguide</h2>
+				</header>
+				<footer>
+					<a class="button scrolly" href="#portfolio">Magna Aliquam</a>
+				</footer>
+			</div>
+		</section><!-- Portfolio -->
+		<section class="two" id="interactive_elements">
+			<div class="container">
+				<header>
+					<h2>Interactive Elements</h2>
+				</header>
+				<p>insert In-text link, navigation link, submit & reset buttons, Text input field</p>
+				<p></p>
+				<p>Lorem ipsum dolor sit a</p>
+			</div>
+		</section>
+		<section class="element">
+			<h3>NAVIGATION LINK</h3>
+			<h4>CSS selector:</h4>
+			<p>.button-nav</p>
+			<h4>Sample code:</h4><code>&lt;a class="button-nav" href="#home"&gt; Home&lt;/a&gt;</code>
+			<h4>Rendered element:</h4><a class="button scrolly" href="#portfolio">Magna Aliquam</a>
+		</section>
+		<section class="element">
+			<h3>IN-TEXT LINK</h3>
+			<h4>CSS selector:</h4>
+			<p>.link</p><!-- For all my sample codes, I used the P01 Style Guide example used as reference (mainly for implementing "&lt;" and "&gt;") -->
+			<h4>Sample code:</h4><code>&lt;p&gt; Click &lt;a class="link" href="https://www.sfu.ca/"&gt; here &lt;/a&gt; to find out more!/ &lt;p&gt;</code>
+			<h4>Rendered element:</h4>
+			<p>Click <a class="link" href="https://www.sfu.ca/">here</a> to find out more!</p>
+		</section>
+		<section class="element">
+			<!-- label reference from https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_label -->
+			<h3>SUBMIT & RESET BUTTONS</h3>
+			<h4>CSS selector:</h4>
+			<p>.button-form</p>
+			<h4>Sample code:</h4><code>&lt;input class="button-form" type="submit" value="Submit"&gt;<br>
+			&lt;input class="button-form" type="reset" value="Reset"&gt;<br></code>
+			<h4>Rendered element</h4><input class="button-form" type="submit" value="Submit"> <input class="button-form" type="reset" value="Reset">
+		</section>
+		<section class="element">
+			<h3>TEXT INPUT FIELD</h3><!-- Input box reference from https://www.w3schools.com/tags/tag_input.asp -->
+			<h4>CSS selector:</h4>
+			<p>.input-text</p>
+			<p>.input-textlabel</p>
+			<h4>Sample code:</h4><code>&lt;label class="input-textlabel" for="name"&gt; Name: &lt;/label&gt;<br>
+			&lt;input class="input-text" type="text" id = "name" name="name"&gt;<br></code>
+			<h4>Rendered element:</h4>
+			<form action="#" method="post">
+				<div class="col-6 col-12-mobile">
+					<input name="name" placeholder="Name" type="text">
+				</div>
+			</form>
+		</section>
+		<section class="element" id="text_elements">
+			<header>
+				<h2>Text Elements</h2>
+			</header>
+			<h3>FOUR LEVELS OF HEADING</h3>
+			<h4>CSS Selector:</h4>
+			<p>h1, h2, h3, h4</p>
+			<h4>Sample code:</h4><code>&lt;h1&gt; level 1 &lt;/h1&gt;<br>
+			&lt;h2&gt; level 2 &lt;/h2&gt;<br>
+			&lt;h3&gt; level 3 &lt;/h3&gt;<br>
+			&lt;h4&gt; level 4 &lt;/h4&gt;<br></code>
+			<h4>Rendered element:</h4>
+			<h1>level 1</h1>
+			<h2>level 2</h2>
+			<h3>level 3</h3>
+			<h4>level 4</h4>
+		</section>
+		<section class="element">
+			<h3>A PARAGRAPH</h3>
+			<h4>CSS selector:</h4>
+			<p>p</p>
+			<h4>Sample code:</h4><code>&lt;p&gt; Lorem ipsum... &lt;/p&gt;</code>
+			<h4>Rendered element:</h4>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</section>
+		<section class="element"></section>
+		<section class="two" id="combined_elements">
+			<div class="container">
+				<header>
+					<h2>Combined Elements</h2>
+				</header>
+				<h3>Numbered Lists</h3>
+				<h4>Renedered element:</h4>
+				<ol>
+					<li>item 1</li>
+					<li>item 2</li>
+					<li>item 3</li>
+				</ol>
+				<header>
+					<h2>Website Components</h2>
+				</header>
+				<h3>Fonts</h3>
+				<p>INSERT FONT</p>
+				<h3>Color Palettes</h3>
+			</div>
+		</section><!-- About Me -->
+		<section class="four" id="about">
+			<div class="container">
+				<section class="one dark cover">
+					<div class="container">
+						<header>
+							<h2>Work Template</h2><img alt="Project1" src="assets/images/Project1.png">
+							<p>Sink of Swim was created using Java is a hunting simulation game where you play as a submarine trying to kill the sharks trying to attack smaller fish. Its a simulated aquatic environment as the smaller fish try to eat the worms while running away from the sharks. The sharks swim around trying to survive by eating the fish, if they aren’t able to eat them they will eventually die.</p>
+						</header>
+					</div>
+				</section><!-- Portfolio -->
+				<section class="two" id="portfolio">
+					<div class="container">
+						<header>
+							<h3>Objective of game: Control the oceans ecosystem by hunting and killing the sharks before they devour all the fish</h3>
+						</header>
+						<div class="row">
+							<div class="work-col">
+								<img alt="Project1" class="projectimage" src="assets/images/sinkorswim5.png">
+								<div class="first-step">
+									<h2>First step</h2>
+									<p>At first I started the creation of the ocean, fish and worms. Using Arraylists I spawned several fish and worms in the environment. I wanted the creatures to move naturally and have a simulated environment where creatures lived in the ocean.</p>
+								</div>
+							</div><br>
+						</div>
+					</div>
+				</section>
+			</div>
+		</section>
+	</div><!-- Footer -->
+	<div id="footer">
+		<!-- Copyright -->
+		<ul class="copyright">
+			<li>&copy;Adrian Soliman</li>
+		</ul>
+		<div class="footer-link">
+			<a href="styleguide.html">Styleguide</a> <a href="https://www.facebook.com/adrian.soliman.1238/">Facebook</a> <a href="https://www.instagram.com/adriansoliman/?hl=en">Instagram</a>
+		</div>
+	</div>
+</body>
+</html>
