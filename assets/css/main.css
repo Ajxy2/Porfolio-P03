@@ -1,3 +1,6 @@
+@import url("fontawesome-all.min.css");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,600");
+
 ::-webkit-scrollbar {
   display: none;
 }
@@ -43,6 +46,8 @@ table {
 body {
 	-webkit-text-size-adjust: none;
 }
+
+
 
 /* Basic */
 
@@ -102,7 +107,13 @@ body {
 
 		h2.alt {
 			color: #888;
+      font-size: 10rem;
 		}
+
+    h2.alt-2 {
+      color: #888;
+      font-size: 4rem;
+    }
 
 
 	h3 {
@@ -146,11 +157,22 @@ body {
 		width: 1400px;
 	}
 
-		@media screen and (min-width: 961px) and (max-width: 1880px) {
+  .container-title{
+    padding-top: -33rem;
+  }
+
+
+
+
+		@media screen and (min-width: 961px) and (max-width: 2880px) {
 
 			.container {
 				width: 1200px;
 			}
+
+      .container-work {
+        margin-top: -12rem;
+      }
 
 		}
 
@@ -215,6 +237,97 @@ body {
 			width:20rem;
       height:30rem;
 		}
+
+    .block-img {
+      position: relative;
+      height: 25rem;
+      flex-grow: 1;
+    }
+
+    .image.fit {
+			display: block;
+			width: 250rem;
+      font-size: 3rem;
+		}
+
+    .row > .col-4 {
+      width: 33.33333%;
+    }
+
+    .row > .col-12 {
+      width: 100%;
+      	margin-left: 100%;
+    }
+
+    /*row*/
+
+    .row {
+  		display: flex;
+  		flex-wrap: wrap;
+  		box-sizing: border-box;
+  		align-items: stretch;
+  	}
+
+  		.row > * {
+  			box-sizing: border-box;
+  		}
+
+      .work-col{
+        display: flex;
+width:180rem;
+      }
+
+      .first-step{
+            display: block;
+        margin-left: 5rem;
+
+
+      }
+
+      .second-step{
+        display: block;
+      }
+
+
+
+
+
+
+
+
+  		}
+/*can alter this*/
+  		.row > .col-12 {
+  			width: 100%;
+  		}
+
+  		.row > .off-12 {
+  			margin-left: 100%;
+  		}
+
+
+
+
+  		.row {
+  			margin-top: -40px;
+  			margin-left: -40px;
+  		}
+
+  			.row > * {
+  				padding: 40px 0 0 40px;
+  			}
+
+  			.row.gtr-uniform {
+  				margin-top: -40px;
+  			}
+
+  				.row.gtr-uniform > * {
+  					padding-top: 40px;
+  				}
+
+
+
+
 
 
 
@@ -359,6 +472,20 @@ body {
 		box-shadow: 0 0.05em 0.15em 0 rgba(0, 0, 0, 0.05);
 		margin-bottom: 40px;
 	}
+
+  .item header {
+    background: #fff;
+
+
+		}
+    margin: 0;
+    padding: 1em 0 1em 0;
+    font-size: 0.8em;
+  }
+
+    .item header h3 {
+      font-size: 1em;
+    }
 
 
 
@@ -566,16 +693,17 @@ body {
 			}
 
 			#main > section.one {
-				background-color: #81918E;
-				background-image: url("../../images/banner.jpg");
+				background-color: #3D5A80;
+        max-height: 60rem;
+
 			}
 
 			#main > section.two {
-				background-color: #f5fafa;
+				background-color: #E0FBFC;
 			}
 
 			#main > section.three {
-				background-color: #ecf1f1;
+				background-color: #98C1D9;
 			}
 
 			#main > section.four {
@@ -591,6 +719,17 @@ body {
 			body, input, textarea, select {
 				font-size: 17pt;
 			}
+
+      h2.alt {
+  			color: #888;
+        font-size: 2rem;
+  		}
+
+
+
+
+
+
 
 		/* Header */
 
@@ -641,6 +780,8 @@ body {
 			.container {
 				padding: 0 2em 0 2em;
 			}
+
+
 
 		/* Icons */
 
@@ -720,6 +861,24 @@ body {
 			.container {
 				padding: 0 2em 0 2em;
 			}
+      h2.alt {
+        color: #888;
+        font-size: 2rem;
+      }
+
+      p {
+        font-size: 1rem;
+      }
+
+.work-col{
+  display:block;
+      width:50rem;
+}
+
+.projectimage{
+width:10rem;
+height:10rem;
+}
 
 		/* Item */
 
